@@ -21,6 +21,6 @@
         tools:layout="@layout/fragment_detay" >
         <argument
             android:name="landmark"
-            app:argType="com.menesince.landmarkbookkotlin.entity.Landmark" />
+            app:argType="com.menesince.landmarkbookkotlin.data.entity.Landmark" />
     </fragment>
 </navigation>

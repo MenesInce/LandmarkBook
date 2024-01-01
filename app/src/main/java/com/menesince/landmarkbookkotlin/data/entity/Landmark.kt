@@ -1,4 +1,4 @@
-package com.menesince.landmarkbookkotlin.entity
+package com.menesince.landmarkbookkotlin.data.entity
 
 import java.io.Serializable
 
