@@ -14,7 +14,9 @@ import com.menesince.landmarkbookkotlin.databinding.FragmentAnasayfaBinding
 import com.menesince.landmarkbookkotlin.data.entity.Landmark
 import com.menesince.landmarkbookkotlin.ui.adapter.LandmarkAdapter
 import com.menesince.landmarkbookkotlin.ui.viewmodel.AnasayfaViewModel
+import dagger.hilt.android.AndroidEntryPoint
 
+@AndroidEntryPoint
 class AnasayfaFragment : Fragment() {
  private lateinit var binding: FragmentAnasayfaBinding
  private lateinit var viewModel: AnasayfaViewModel

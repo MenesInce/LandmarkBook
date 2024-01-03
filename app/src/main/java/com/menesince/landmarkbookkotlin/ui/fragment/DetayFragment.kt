@@ -10,7 +10,9 @@ import androidx.navigation.fragment.navArgs
 import com.menesince.landmarkbookkotlin.R
 import com.menesince.landmarkbookkotlin.databinding.FragmentDetayBinding
 import com.menesince.landmarkbookkotlin.data.entity.Landmark
+import dagger.hilt.android.AndroidEntryPoint
 
+@AndroidEntryPoint
 class DetayFragment : Fragment() {
 private lateinit var binding: FragmentDetayBinding
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View? {
